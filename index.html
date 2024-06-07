@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" class="display" placeholder="0">
+
+        <div class="buttons">
+           <button class="mode" id="logoMatahari"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbxJREFUSEu11U+ITlEYBvDfkCysJEopmthbywYLlhbKnmYWIjHNkD8hhAgLMxvs7ZQdhZW1tbIzo0bIykL5c16dT7fTvd+5n745m9u5973Pc97nfd/nTFjhNbHC+EYhiNhf+UC9/+sdyN/DjI3gIhbwpZDwdyZZXbzfhCO4WUrelsF5XMM77MXHSp224DW24yxuNePbCLbiFSYxg7sVgrkM+j4f6EONIL5HylO4noMP4Rj25P1LzONp3p/DoxTzqY9EZcydnElbIpdT8a8My7DWRYfxJANczYWP7XFErWLtx4sukhrBW+zEadwrQAbN8BwHagTNHo/YAfFPrMJ6fCtANucO+4oNxZz8wxgAdRH8SIVe00EQjbCM71hXI+jK8E3Sd1cCiVa83SFRzEDMS+uq1eBgoxWjyA+wNk34CcxmxNA/6vBfBPHTsDa90JiVkQhC36PptDcag3YSu/P+GR4jnrGiox72HbRt2VvieQr3hw0SzmSTC6uISV9sxrfVINIOvcPs9iXLWKoQhNmFd+3oa3aBdyl7zecCvMuuN6aZmG6rR62LymzHduG0qTLWG60ie//Po0jUH7UR+QcpUk4ZRDtj1AAAAABJRU5ErkJggg==" alt="logo matahari"/> </button>
+           <button class="rad-btn" >rad</button> 
+           <button class="operator" data-value="sin">sin</button>
+           <button class="operator" data-value="cos">cos</button> 
+           <button class="operator" data-value="tan">tan</button>
+
+           <button class="operator" data-value="^">x^y</button>
+           <button class="operator" data-value="log">log</button>
+           <button class="operator" data-value="ln">ln</button>  
+           <button  data-value="(" class="kurung" >(</button>
+           <button  data-value=")" class="kurung" >)</button>
+
+           <button class="operator" data-value="sqrt">√x</button>
+           <button class="operator" data-value="AC">AC</button>
+           <button class="operator" data-value="DEL">DEL</button>  
+           <button class="operator" data-value="%">%</button>
+           <button class="operator" data-value="/">÷</button>
+
+           <button class="operator" data-value="!">x!</button>
+           <button  data-value="7">7</button>
+           <button  data-value="8">8</button>
+           <button  data-value="9">9</button>
+           <button class="operator" data-value="*">×</button>
+
+           <button class="operator" data-value="1/">1/x</button>
+           <button  data-value="4">4</button>
+           <button  data-value="5">5</button>
+           <button  data-value="6">6</button>
+           <button class="operator" data-value="-">-</button>
+
+           <button class="operator" data-value="mod">mod</button>
+           <button  data-value="1">1</button>
+           <button  data-value="2">2</button>
+           <button  data-value="3">3</button>
+           <button class="operator" data-value="+">+</button>
+
+           <button class="operator" data-value="π">π</button>
+           <button class="operator" data-value="e">e</button>
+           <button  data-value="0">0</button>
+           <button  data-value="00">00</button>
+           <button  data-value=".">.</button>
+
+           <button class="operator" id="samadengan" data-value="=">=</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
